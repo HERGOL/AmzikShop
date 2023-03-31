@@ -5,14 +5,6 @@ import styles from "./Header.module.css"
 import ContainerCard from '../ContainerCard/ContainerCard';
 import Nav from "../Nav/Nav"
 import BrickLayout from "../BrickLayout/BrickLayout";
-import HeaderBoxes from "./HeaderBoxes/HeaderBoxes";
-
-// import something from react packages
-import { SearchNormal1 } from "iconsax-react";
-import { Setting4 } from "iconsax-react";
-
-// import jsons
-import JsonHeader from '../../Jsons/HeaderBoxes.json';
 
 // Header component
 const Header = () => {
