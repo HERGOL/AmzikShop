@@ -4,7 +4,7 @@ import styles from "./Header.module.css"
 // import other components
 import ContainerCard from '../ContainerCard/ContainerCard';
 import Nav from "../Nav/Nav"
-import BrickLayout from "../BrickLayout/BrickLayout";
+import BrickLayout from "../Background/Background";
 
 // Header component
 const Header = () => {
@@ -17,10 +17,9 @@ const Header = () => {
           <BrickLayout />
           
           <div className={`${styles["headings-header"]} flex justify-content-center flex-column `}>
-            <h2 className={styles["heading-header-title"]}>Rejoignez le mouvement Amzik dès maintenant !!!</h2>
+            <h2 className={styles["heading-header-title"]}>Rejoignez le mouvement Amzik dès maintenant !</h2>
             <h1 className={styles["heading-header-second-title"]}>
-            précommander les vêtements <br />
-            <span>Amzik </span>dès maintenant et être parmi les premiers<br /> à les recevoir lorsque la collection sera disponible.
+            Bénéficiez du service précommande<br /> de la marque <span>AMZIK SHOP</span> <br /> soyez les premiers à recevoir nos produits <br />dès la sortie de la nouvelle collection <br />
             </h1>
           </div>
         </ContainerCard>

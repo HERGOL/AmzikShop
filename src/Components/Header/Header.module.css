@@ -57,18 +57,7 @@
 .heading-header-second-title span {
     color: var(--orange-400);
 }
-.search-bar {
-    position: relative;
-    width: 600px;
-    height: 60px;
-    margin-top: 30px;
-    padding: 0 8px 0 20px;
-    column-gap: 20px;
-    background-image: url(/public/img/search/search.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;   
-}
+
 .search-input {
     width: 100%;
     height: 100%;

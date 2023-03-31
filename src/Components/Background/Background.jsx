@@ -1,4 +1,4 @@
-import styles from "./BrickLayout.module.css"
+import styles from "./Background.module.css"
 
 const BrickLayout = () => {
   return (
@@ -11,7 +11,7 @@ const BrickLayout = () => {
       <div className={styles["brick-column"]}>
         <img src="img/dummy_image/4.jpg" alt="" />
         <img src="img/dummy_image/5.jpg" alt="" />
-        <img src="img/dummy_image/6.jpg" alt="" />
+        
       </div>
       <div className={styles["brick-column"]}>
         <img src="img/dummy_image/7.jpg" alt="" />
