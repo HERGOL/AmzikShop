@@ -7,7 +7,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "Arash",
-                    "job": "Designer"
+                    "info": "Designer"
                 }
             },
             {
@@ -16,7 +16,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "Anne",
-                    "job": "Graphic Designer"
+                    "info": "Graphic Designer"
                 }
             },
             {
@@ -25,7 +25,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "James",
-                    "job": "editor"
+                    "info": "editor"
                 }
             },
             {
@@ -34,7 +34,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "Mary",
-                    "job": "Developer"
+                    "info": "Developer"
                 }
             },
             {
@@ -42,8 +42,7 @@
                 "src": "img/wallpapers/6.jpg",
                 "user": {
                     "src": "img/profile/3.png",
-                    "name": "Patricia",
-                    "job": "Front-End"
+                    "info": "Front-End"
                 }
             },
             {
@@ -51,8 +50,7 @@
                 "src": "img/wallpapers/7.png",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "Jennifer",
-                    "job": "Front-End"
+                    "info": "Front-End"
                 }
             },
             {
@@ -60,8 +58,7 @@
                 "src": "img/wallpapers/9.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "name": "Joseph",
-                    "job": "Designer"
+                    "info": "Designer"
                 }
             },
             {
@@ -69,8 +66,7 @@
                 "src": "img/wallpapers/11.jfif",
                 "user": {
                     "src": "img/profile/2.png",
-                    "name": "Joshua",
-                    "job": "Developer"
+                    "info": "Developer"
                 }
             },
             {
@@ -78,8 +74,7 @@
                 "src": "img/wallpapers/12.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "name": "Jacob",
-                    "job": "Ui/Ux Designer"
+                    "info": "Ui/Ux Designer"
                 }
             },
             {
@@ -87,8 +82,7 @@
                 "src": "img/wallpapers/13.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "name": "Larry",
-                    "job": "photographer"
+                    "info": "photographer"
                 }
             },
             {
@@ -96,8 +90,7 @@
                 "src": "img/wallpapers/14.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "Eric",
-                    "job": "Editor"
+                    "info": "Editor"
                 }
             },
             {
@@ -105,8 +98,7 @@
                 "src": "img/wallpapers/15.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "name": "Justin",
-                    "job": "Designer"
+                    "info": "Designer"
                 }
             }
         ],
@@ -116,8 +108,7 @@
                 "src": "img/wallpapers/6.jpg",
                 "user": {
                     "src": "img/profile/3.png",
-                    "name": "Patricia",
-                    "job": "Front-End"
+                    "info": "Front-End"
                 }
             },
             {
@@ -125,8 +116,7 @@
                 "src": "img/wallpapers/7.png",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "Jennifer",
-                    "job": "Front-End"
+                    "info": "Front-End"
                 }
             }
         ],
@@ -136,8 +126,7 @@
                 "src": "img/wallpapers/3.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
-                    "name": "Anne",
-                    "job": "Graphic Designer"
+                    "info": "Graphic Designer"
                 }
             },
             {
@@ -145,8 +134,7 @@
                 "src": "img/wallpapers/4.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "James",
-                    "job": "editor"
+                    "info": "editor"
                 }
             },
             {
@@ -154,8 +142,7 @@
                 "src": "img/wallpapers/5.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "name": "Mary",
-                    "job": "Developer"
+                    "info": "Developer"
                 }
             },
             {
@@ -163,8 +150,7 @@
                 "src": "img/wallpapers/6.jpg",
                 "user": {
                     "src": "img/profile/3.png",
-                    "name": "Patricia",
-                    "job": "Front-End"
+                    "info": "Front-End"
                 }
             },
             {
@@ -172,8 +158,7 @@
                 "src": "img/wallpapers/7.png",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "Jennifer",
-                    "job": "Front-End"
+                    "info": "Front-End"
                 }
             },
             {
@@ -181,8 +166,7 @@
                 "src": "img/wallpapers/9.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "name": "Joseph",
-                    "job": "Designer"
+                    "info": "Designer"
                 }
             }
         ],
@@ -192,8 +176,7 @@
                 "src": "img/wallpapers/12.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "name": "Jacob",
-                    "job": "Ui/Ux Designer"
+                    "info": "Ui/Ux Designer"
                 }
             },
             {
@@ -201,8 +184,7 @@
                 "src": "img/wallpapers/14.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "Eric",
-                    "job": "Editor"
+                    "info": "Editor"
                 }
             },
             {
@@ -210,8 +192,7 @@
                 "src": "img/wallpapers/15.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "name": "Justin",
-                    "job": "Designer"
+                    "info": "Designer"
                 }
             }
         ],
@@ -221,8 +202,7 @@
                 "src": "img/wallpapers/9.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "name": "Joseph",
-                    "job": "Designer"
+                    "info": "Designer"
                 }
             }
         ]

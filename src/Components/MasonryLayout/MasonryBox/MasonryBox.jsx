@@ -13,7 +13,7 @@ const MasonryBox = ({ wallSrc, userProf, userName, userJob }) => {
               <img src={userProf} alt="" />
             </div>
             <div className={`${styles["my-masnry-user-prof-desc"]} flex flex-column`}>
-              <h1>{userName}</h1>
+              <h1>commander</h1>
               <h3>{userJob}</h3>
             </div>
           </div>
