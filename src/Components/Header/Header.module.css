@@ -17,7 +17,7 @@
 .headings-header {
     height: 100%;
     z-index: 2;
-    backdrop-filter: blur(5px) saturate(80%); ;
+    backdrop-filter: blur(5px) saturate(80%); 
     
 }
 
@@ -70,7 +70,6 @@
         position: absolute;
         left: 10px;
         font-size: 1.1rem;
-        background-color: rgb(248, 243, 232);
         width: 100%;
         text-align: center;
     }
@@ -111,14 +110,15 @@
 @media screen and (max-width: 480px) {
     .main_text{
         backdrop-filter: blur(2px) saturate(20%);
-        border-radius: 20px;
-        
+        border-radius: 20px;    
         
     }
     .heading-header-second-title {
-        position: absolute;
-        left: -50px;
+        position: relative;
+        left: -5px;
         font-size: 1rem;
+        text-align: center;
+        font-size: 600;
     }
     .heading-header-title {
         position: absolute;
