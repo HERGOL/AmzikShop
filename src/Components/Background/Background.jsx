@@ -4,19 +4,19 @@ const BrickLayout = () => {
   return (
     <div className={styles["brick-layout"]}>
       <div className={styles["brick-column"]}>
-        <img src="img/dummy_image/1.jpg" alt="" />
-        <img src="img/dummy_image/2.jpg" alt="" />
-        <img src="img/dummy_image/3.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/1_bimnkm.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/3_twn5fk.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/6_nmjbqv.jpg" alt="" />
       </div>
       <div className={styles["brick-column"]}>
-        <img src="img/dummy_image/4.jpg" alt="" />
-        <img src="img/dummy_image/5.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/4_fgqgom.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/12_bmli57.jpg" alt="" />
         
       </div>
       <div className={styles["brick-column"]}>
-        <img src="img/dummy_image/7.jpg" alt="" />
-        <img src="img/dummy_image/8.jpg" alt="" />
-        <img src="img/dummy_image/9.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/9_e9tf4g.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/13_cjmod7.jpg" alt="" />
+        <img src="https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/14_zz8usc.jpg" alt="" />
       </div>
     </div>
   )

@@ -3,7 +3,7 @@
         "all": [
             {
                 "id": "1",
-                "src": "img/wallpapers/1.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/1_bimnkm.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article1",
@@ -12,7 +12,7 @@
             },
             {
                 "id": "2",
-                "src": "img/wallpapers/3.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/3_twn5fk.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article2",
@@ -21,7 +21,7 @@
             },
             {
                 "id": "3",
-                "src": "img/wallpapers/4.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/6_nmjbqv.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article3",
@@ -30,7 +30,7 @@
             },
             {
                 "id": "4",
-                "src": "img/wallpapers/5.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/4_fgqgom.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article4",
@@ -39,7 +39,7 @@
             },
             {
                 "id": "5",
-                "src": "img/wallpapers/6.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/12_bmli57.jpg",
                 "user": {
                     "src": "img/profile/3.png",
                     "name": "article5",
@@ -49,7 +49,7 @@
            
             {
                 "id": "6",
-                "src": "img/wallpapers/9.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/9_e9tf4g.jpg",
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article6",
@@ -58,7 +58,7 @@
             },
             {
                 "id": "7",
-                "src": "img/wallpapers/12.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/13_cjmod7.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article7",
@@ -67,7 +67,7 @@
             },
             {
                 "id": "8",
-                "src": "img/wallpapers/13.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/14_zz8usc.jpg",
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article8",
@@ -76,7 +76,7 @@
             },
             {
                 "id": "9",
-                "src": "img/wallpapers/14.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/15_e2tsgj.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article9",
@@ -85,7 +85,7 @@
             },
             {
                 "id": "10",
-                "src": "img/wallpapers/15.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/v1680472696/5_xz1wyz.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article10",

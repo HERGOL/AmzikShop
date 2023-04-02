@@ -7,6 +7,7 @@ import styles from "../App.module.css"
 import Header from '../Components/Header/Header';
 import MasonryLayout from '../Components/MasonryLayout/MasonryLayout';
 import ContainerCard from '../Components/ContainerCard/ContainerCard';
+import Footer from "../Components/Footer/footer";
 // import json files 
 import images from "../Jsons/Images.json"
 
@@ -64,6 +65,7 @@ const Home = () => {
               <MasonryLayout images={categoryImage} />
           </ContainerCard>
         </div>
+        <Footer />
     </>
   )
 }
