@@ -16,8 +16,8 @@
 }
 .headings-header {
     height: 100%;
-    margin-left: 40px;
     z-index: 2;
+    backdrop-filter: blur(5px) saturate(80%); ;
     
 }
 
@@ -56,45 +56,10 @@
     margin-top: 30px;
     font-weight: bolder;
     line-height: 50px;
-    backdrop-filter: blur(2px) saturate(20%);
     border-radius: 20px;
 }
 .heading-header-second-title span {
     color: var(--orange-400);
-}
-
-.search-input {
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    font-size: 1.1rem;
-    color: var(--white-100);
-}
-.search-input::placeholder {
-    color: var(--dark-600);
-}
-.search-btn {
-    position: relative;
-    width: 50px;
-    height: 40px;
-    border-radius: 0;
-    background-color: transparent;
-    cursor: pointer;
-}
-.search-btn::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(/public/img/search/SearchButton.png);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
 }
 @media screen and (max-width: 840px) {
     .headings-header {
@@ -104,9 +69,8 @@
     .heading-header-second-title {
         position: absolute;
         left: 10px;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         background-color: rgb(248, 243, 232);
-        border-radius: 20px;
         width: 100%;
         text-align: center;
     }
@@ -145,9 +109,6 @@
     }
 }
 @media screen and (max-width: 480px) {
-    .heading-header-title {
-        margin-left: -auto;
-    }
     .main_text{
         backdrop-filter: blur(2px) saturate(20%);
         border-radius: 20px;
@@ -156,18 +117,8 @@
     }
     .heading-header-second-title {
         position: absolute;
-        left: 10px;
-        font-size: 1.4rem;
-        backdrop-filter: blur(2px) saturate(20%);
-        border-radius: 20px;
-    }
-    
-    .search-bar {
-        width: 500px;
-    }
-    .search-btn {
-        width: 40px;
-        height: 30px;
+        left: -50px;
+        font-size: 1rem;
     }
     .heading-header-title {
         position: absolute;

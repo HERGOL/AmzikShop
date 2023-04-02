@@ -25,7 +25,7 @@ const Header = () => {
             </div>
           </div>
         </ContainerCard>
-    </header>
+    </header> 
   )
 }
 
