@@ -55,15 +55,16 @@ const OrderForm = () => {
 
   return (
     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: '50px auto', maxWidth: '500px' }}>
-      <label htmlFor="fullName">Nom complet</label>
-      <input className={`${styles["inputs"]} `} type="text" id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
+      <div className={`${styles["inputs"]} `}>
+      <label className={`${styles["input-label"]} `} htmlFor="fullName">Nom complet</label>
+      <input className={`${styles["input"]} `} type="text" id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
 
-      <label htmlFor="phoneNumber">Numéro de téléphone</label>
-      <input className={`${styles["inputs"]} `} type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
+      <label className={`${styles["input-label"]} `} htmlFor="phoneNumber">Numéro de téléphone</label>
+      <input className={`${styles["input"]} `} type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
 
-    <div className={`${styles["inputs"]} `}>
-     <label htmlFor="email">Adresse e-mail</label>
-      <input className={`${styles["inputs"]} `} type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}  />
+    
+     <label className={`${styles["input-label"]} `} htmlFor="email">Adresse e-mail</label>
+      <input className={`${styles["input"]} `} type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}  />
     </div>
 
     <label htmlFor="size">Taille</label>
