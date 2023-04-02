@@ -23,7 +23,9 @@
 .text_box{
     font-weight: bolder;
     position: relative;
-    left: 10px;
+    text-align: center;
+    top: 10%;
+    right: -10%;
 }
 .my-masnry-user-box {
     width: 100%;

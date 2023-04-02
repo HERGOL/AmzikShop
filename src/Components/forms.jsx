@@ -1,4 +1,5 @@
 import React, { useState , useEffect } from 'react';
+import styles from "./forms.module.css"
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import Swal from 'sweetalert2';
@@ -55,22 +56,28 @@ const OrderForm = () => {
   return (
     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: '50px auto', maxWidth: '500px' }}>
       <label htmlFor="fullName">Nom complet</label>
-      <input type="text" id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
+      <input className={`${styles["inputs"]} `} type="text" id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
 
       <label htmlFor="phoneNumber">Numéro de téléphone</label>
-      <input type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
+      <input className={`${styles["inputs"]} `} type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
 
-      <label htmlFor="email">Adresse e-mail</label>
-      <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
-      <label htmlFor="size">Taille</label>
+    <div className={`${styles["inputs"]} `}>
+     <label htmlFor="email">Adresse e-mail</label>
+      <input className={`${styles["inputs"]} `} type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}  />
+    </div>
+
+    <label htmlFor="size">Taille</label>
       <select id="size" value={size} onChange={(e) => setSize(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }}>
-       <option value="">Sélectionnez une taille</option>
-       <option value="s">S</option>
-      <option value="m">M</option>
-      <option value="l">L</option>
-      <option value="xl">XL</option>
-    </select>
-      <button type="submit" style={{ backgroundColor: '#0077ff', color: '#fff', border: 'none', padding: '10px 20px', borderRadius: '5px', fontSize: '16px', cursor: 'pointer' }}>Passer la commande</button>
+        <option value="">Sélectionnez une taille</option>
+        <option value="s">S</option>
+        <option value="m">M</option>
+        <option value="l">L</option>
+        <option value="xl">XL</option>
+      </select>
+
+
+
+      <button type="submit" className={`${styles["botton"]} flex`}>Passer la commande</button>
     </form>
   );
 };
