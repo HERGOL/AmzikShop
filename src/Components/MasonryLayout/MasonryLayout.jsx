@@ -6,6 +6,7 @@ import Masonry from "react-masonry-css"
 
 // import other component to use
 import MasonryBox from './MasonryBox/MasonryBox';
+import { Link } from "react-router-dom";
 
 // MasonryLayout Component
 const MasonryLayout = ({ images }) => {
@@ -17,6 +18,7 @@ const MasonryLayout = ({ images }) => {
   };
 
   return (
+  <Link to="/article1">
     <Masonry
       breakpointCols={breakpointColumnsObj}
       className={styles["my-masonry-grid"]}
@@ -32,6 +34,7 @@ const MasonryLayout = ({ images }) => {
         />
       ))}
     </Masonry>
+    </Link>
   )
 }
 

@@ -11,6 +11,10 @@ function App() {
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/article1' component={A1} exact />
+        <Route path='/article2' component={A1} exact />
+        <Route path='/article3' component={A1} exact />
+        <Route path='/article4' component={A1} exact />
+        <Route path='/article5' component={A1} exact />
       </Switch>
     </Router>
   );
