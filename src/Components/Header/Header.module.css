@@ -106,17 +106,12 @@
 }
 @media screen and (max-width: 480px) {
 
-    .main_text{
-        backdrop-filter: blur(2px) saturate(20%);
-        border-radius: 20px;    
-        
-    }
+
     .heading-header-second-title {
         position: relative;
-        left: -5px;
         font-size: 1rem;
         text-align: center;
-        font-size: 600;
+        font-size: bold;
     }
     
 
