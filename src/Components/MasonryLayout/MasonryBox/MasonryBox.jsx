@@ -1,7 +1,6 @@
 // import styles of this component
 import styles from "./MasonryBox.module.css"
 import { PropTypes } from 'prop-types';
-import {images} from '../../../Jsons/Images.json';
 // MasonryBox component
 const MasonryBox = ({ wallSrc, userProf,prix}) => {
   return (
@@ -15,7 +14,7 @@ const MasonryBox = ({ wallSrc, userProf,prix}) => {
             </div>
             <div className={`${styles["my-masnry-user-prof-desc"]} flex flex-column`}>
               <h1 className={styles["text_box"]}>commander</h1>
-              <h3 className={styles["price_box"]}>{prix}</h3>
+              <h1 className={styles["price_box"]}>{prix}</h1>
 
             </div>
           </div>
