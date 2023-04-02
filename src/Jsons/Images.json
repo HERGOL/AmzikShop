@@ -7,7 +7,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article1",
-                    "info": "Designer"
+                    "prix": "Designer"
                 }
             },
             {
@@ -16,7 +16,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article2",
-                    "info": "Graphic Designer"
+                    "prix": "Graphic Designer"
                 }
             },
             {
@@ -25,7 +25,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article3",
-                    "info": "editor"
+                    "prix": "editor"
                 }
             },
             {
@@ -34,7 +34,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article4",
-                    "info": "Developer"
+                    "prix": "Developer"
                 }
             },
             {
@@ -43,7 +43,7 @@
                 "user": {
                     "src": "img/profile/3.png",
                     "name": "article5",
-                    "info": "Front-End"
+                    "prix": "Front-End"
                 }
             },
            
@@ -53,7 +53,7 @@
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article6",
-                    "info": "Designer"
+                    "prix": "Designer"
                 }
             },
             {
@@ -62,7 +62,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article7",
-                    "info": "Ui/Ux Designer"
+                    "prix": "Ui/Ux Designer"
                 }
             },
             {
@@ -71,7 +71,7 @@
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article8",
-                    "info": "photographer"
+                    "prix": "photographer"
                 }
             },
             {
@@ -80,7 +80,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article9",
-                    "info": "Editor"
+                    "prix": "Editor"
                 }
             },
             {
@@ -89,7 +89,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article10",
-                    "info": "Designer"
+                    "prix": "Designer"
                 }
             }
         ],
@@ -99,7 +99,7 @@
                 "src": "img/wallpapers/6.jpg",
                 "user": {
                     "src": "img/profile/3.png",
-                    "info": "Front-End"
+                    "prix": "Front-End"
                 }
             },
             {
@@ -107,7 +107,7 @@
                 "src": "img/wallpapers/7.png",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "info": "Front-End"
+                    "prix": "Front-End"
                 }
             }
         ],
@@ -117,7 +117,7 @@
                 "src": "img/wallpapers/3.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
-                    "info": "Graphic Designer"
+                    "prix": "Graphic Designer"
                 }
             },
             {
@@ -125,7 +125,7 @@
                 "src": "img/wallpapers/4.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "info": "editor"
+                    "prix": "editor"
                 }
             },
             {
@@ -133,7 +133,7 @@
                 "src": "img/wallpapers/5.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "info": "Developer"
+                    "prix": "Developer"
                 }
             },
             {
@@ -141,7 +141,7 @@
                 "src": "img/wallpapers/6.jpg",
                 "user": {
                     "src": "img/profile/3.png",
-                    "info": "Front-End"
+                    "prix": "Front-End"
                 }
             },
             {
@@ -149,7 +149,7 @@
                 "src": "img/wallpapers/7.png",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "info": "Front-End"
+                    "prix": "Front-End"
                 }
             },
             {
@@ -157,7 +157,7 @@
                 "src": "img/wallpapers/9.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "info": "Designer"
+                    "prix": "Designer"
                 }
             }
         ],
@@ -167,7 +167,7 @@
                 "src": "img/wallpapers/12.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "info": "Ui/Ux Designer"
+                    "prix": "Ui/Ux Designer"
                 }
             },
             {
@@ -175,7 +175,7 @@
                 "src": "img/wallpapers/14.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "info": "Editor"
+                    "prix": "Editor"
                 }
             },
             {
@@ -183,7 +183,7 @@
                 "src": "img/wallpapers/15.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "info": "Designer"
+                    "prix": "Designer"
                 }
             }
         ],
@@ -193,7 +193,7 @@
                 "src": "img/wallpapers/9.jpg",
                 "user": {
                     "src": "img/profile/2.png",
-                    "info": "Designer"
+                    "prix": "Designer"
                 }
             }
         ]
