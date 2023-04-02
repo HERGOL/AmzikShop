@@ -18,6 +18,12 @@
     visibility: hidden;
     transition: .7s;
     border-radius: 10px;
+    
+}
+.text_box{
+    font-weight: bolder;
+    position: relative;
+    left: 10px;
 }
 .my-masnry-user-box {
     width: 100%;

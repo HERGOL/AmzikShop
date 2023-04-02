@@ -18,9 +18,11 @@ const Header = () => {
           
           <div className={`${styles["headings-header"]} flex justify-content-center flex-column `}>
             <h2 className={styles["heading-header-title"]}>Rejoignez le mouvement Amzik dès maintenant !</h2>
-            <h1 className={styles["heading-header-second-title"]}>
-            Bénéficiez du service précommande<br /> de la marque <span>AMZIK SHOP</span> <br /> soyez les premiers à recevoir nos produits <br />dès la sortie de la nouvelle collection <br />
-            </h1>
+            <div className={`${styles["main_text"]}`}>
+             <h1 className={styles["heading-header-second-title"]}>
+             Bénéficiez du service précommande<br /> de la marque <span>AMZIK SHOP</span> <br /> soyez les premiers à recevoir nos produits <br />dès la sortie de la nouvelle collection <br />
+             </h1>
+            </div>
           </div>
         </ContainerCard>
     </header>
