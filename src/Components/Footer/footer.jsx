@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
         <div class="footer-content">
-            <h3>code opacity</h3>
+            <h3>contacter nous</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
             <ul class="socials">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -16,7 +16,7 @@ const Footer = () => {
             </ul>
         </div>
         <div class="footer-bottom">
-            <p>copyright &copy;2020 AMZIK.<span> By Hergol</span></p>
+            <p>copyright &copy;2023 AMZIK.<span> By Hergol</span></p>
         </div>
     </footer>
   );
