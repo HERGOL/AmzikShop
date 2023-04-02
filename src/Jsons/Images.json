@@ -6,7 +6,7 @@
                 "src": "img/wallpapers/1.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
-                    "name": "Arash",
+                    "name": "article1",
                     "info": "Designer"
                 }
             },
@@ -15,7 +15,7 @@
                 "src": "img/wallpapers/3.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
-                    "name": "Anne",
+                    "name": "article2",
                     "info": "Graphic Designer"
                 }
             },
@@ -24,7 +24,7 @@
                 "src": "img/wallpapers/4.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
-                    "name": "James",
+                    "name": "article3",
                     "info": "editor"
                 }
             },
@@ -33,7 +33,7 @@
                 "src": "img/wallpapers/5.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
-                    "name": "Mary",
+                    "name": "article4",
                     "info": "Developer"
                 }
             },
@@ -42,31 +42,18 @@
                 "src": "img/wallpapers/6.jpg",
                 "user": {
                     "src": "img/profile/3.png",
+                    "name": "article5",
                     "info": "Front-End"
                 }
             },
-            {
-                "id": "wallpaper 7",
-                "src": "img/wallpapers/7.png",
-                "user": {
-                    "src": "img/profile/4.jpg",
-                    "info": "Front-End"
-                }
-            },
+           
             {
                 "id": "wallpaper 9",
                 "src": "img/wallpapers/9.jpg",
                 "user": {
                     "src": "img/profile/2.png",
+                    "name": "article6",
                     "info": "Designer"
-                }
-            },
-            {
-                "id": "wallpaper 11",
-                "src": "img/wallpapers/11.jfif",
-                "user": {
-                    "src": "img/profile/2.png",
-                    "info": "Developer"
                 }
             },
             {
@@ -74,6 +61,7 @@
                 "src": "img/wallpapers/12.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
+                    "name": "article7",
                     "info": "Ui/Ux Designer"
                 }
             },
@@ -82,6 +70,7 @@
                 "src": "img/wallpapers/13.jpg",
                 "user": {
                     "src": "img/profile/2.png",
+                    "name": "article8",
                     "info": "photographer"
                 }
             },
@@ -90,6 +79,7 @@
                 "src": "img/wallpapers/14.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
+                    "name": "article9",
                     "info": "Editor"
                 }
             },
@@ -98,6 +88,7 @@
                 "src": "img/wallpapers/15.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
+                    "name": "article10",
                     "info": "Designer"
                 }
             }

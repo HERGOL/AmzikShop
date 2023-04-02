@@ -18,13 +18,15 @@ const MasonryLayout = ({ images }) => {
   };
 
   return (
-  <Link to="/article1">
+    <>
+      
     <Masonry
       breakpointCols={breakpointColumnsObj}
       className={styles["my-masonry-grid"]}
       columnClassName={styles["my-masonry-grid_column"]}
-    >
-      {images.map(item => (
+    > 
+    {images.map(item => (
+     <Link to={`/${item.user.name}`}>
         <MasonryBox 
           key={item.id} 
           wallSrc={item.src} 
@@ -32,9 +34,12 @@ const MasonryLayout = ({ images }) => {
           userName={item.user.name} 
           userJob={item.user.job} 
         />
-      ))}
+       </Link>
+         ))}
     </Masonry>
-    </Link>
+   
+    </>
+ 
   )
 }
 
