@@ -7,7 +7,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article1",
-                    "prix": "Designer"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -16,7 +16,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article2",
-                    "prix": "Graphic Designer"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -25,7 +25,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article3",
-                    "prix": "editor"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -34,7 +34,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article4",
-                    "prix": "Developer"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -43,7 +43,7 @@
                 "user": {
                     "src": "img/profile/3.png",
                     "name": "article5",
-                    "prix": "Front-End"
+                    "prix": "2000/2300DA"
                 }
             },
            
@@ -53,7 +53,7 @@
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article6",
-                    "prix": "Designer"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -62,7 +62,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article7",
-                    "prix": "Ui/Ux Designer"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -71,7 +71,7 @@
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article8",
-                    "prix": "photographer"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -80,7 +80,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article9",
-                    "prix": "Editor"
+                    "prix": "2000/2300DA"
                 }
             },
             {
@@ -89,7 +89,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article10",
-                    "prix": "Designer"
+                    "prix": "2000/2300DA"
                 }
             }
         ]
