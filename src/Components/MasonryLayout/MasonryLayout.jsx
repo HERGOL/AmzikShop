@@ -32,7 +32,7 @@ const MasonryLayout = ({ images }) => {
           wallSrc={item.src} 
           userProf={item.user.src} 
           userName={item.user.name} 
-          userJob={item.user.job} 
+          prix={item.user.prix}
         />
        </Link>
          ))}
