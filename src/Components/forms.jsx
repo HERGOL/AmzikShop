@@ -1,4 +1,5 @@
 import React, { useState , useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import styles from "./forms.module.css"
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, serverTimestamp } from 'firebase/firestore';
@@ -22,11 +23,11 @@ const OrderForm = () => {
   const [size, setSize] = useState(''); 
   const [pathname, setPathname] = useState('');
   const [color, setColor] = useState('');
-
+const [type, setType] = useState('');
   useEffect(() => {
     setPathname(window.location.pathname);
   }, []);
-
+  const imagePath = require(`../Assets/img${pathname}.jpg`);
   const handleSubmit = (e) => {
     e.preventDefault();
     const db = getFirestore();
@@ -36,6 +37,7 @@ const OrderForm = () => {
       firstname,
       phoneNumber,
       email,
+      type,
       size,
       color,
       timestamp: serverTimestamp(),
@@ -63,7 +65,7 @@ const OrderForm = () => {
       <div className={styles.container}>
         <h1>Confirmation de commande</h1>
         <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
-        <img className={styles.image} src="https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483572/article1_knrbmo.jpg"/>
+        <img className={styles.image} src={imagePath}/>
   
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
@@ -96,8 +98,8 @@ const OrderForm = () => {
             </select>
           </div>
           <div className={styles.inputGroup}>
-            <label htmlFor="size" className={styles.label}>Type</label>
-            <select id="size" value={size} onChange={(e) => setSize(e.target.value)} className={styles.select}required >
+            <label htmlFor="type" className={styles.label}>Type</label>
+            <select id="type" value={type} onChange={(e) => setType(e.target.value)} className={styles.select}required >
               <option value="">Sélectionnez le type</option>
               <option value="Basic">Basic</option>
               <option value="Over-Size">Over-Size</option>

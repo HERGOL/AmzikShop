@@ -3,7 +3,7 @@
         "all": [
             {
                 "id": "1",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483572/article1_knrbmo.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483572/article1.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article1",
@@ -12,7 +12,7 @@
             },
             {
                 "id": "2",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680481852/article2_gxpy9l.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680546866/article2_w5rvky.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article2",
@@ -21,7 +21,7 @@
             },
             {
                 "id": "3",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680481853/article3_faotx7.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680546938/article3_f5dyp3.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article3",
@@ -30,7 +30,7 @@
             },
             {
                 "id": "4",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483289/article4_osnzgr.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483289/article4.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article4",
@@ -39,7 +39,7 @@
             },
             {
                 "id": "5",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483300/article5_jnk72h.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483300/article5.jpg",
                 "user": {
                     "src": "img/profile/3.png",
                     "name": "article5",
@@ -49,7 +49,7 @@
            
             {
                 "id": "6",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483299/article6_vu4key.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483299/article6.jpg",
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article6",
@@ -58,7 +58,7 @@
             },
             {
                 "id": "7",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483299/article7_q3uqb7.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483299/article7.jpg",
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article7",
