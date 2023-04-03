@@ -7,7 +7,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article1",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -16,7 +16,7 @@
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article2",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -25,7 +25,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article3",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -34,7 +34,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article4",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -43,7 +43,7 @@
                 "user": {
                     "src": "img/profile/3.png",
                     "name": "article5",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
            
@@ -53,7 +53,7 @@
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article6",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -62,7 +62,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article7",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -71,7 +71,7 @@
                 "user": {
                     "src": "img/profile/2.png",
                     "name": "article8",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -80,7 +80,7 @@
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article9",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             },
             {
@@ -89,7 +89,7 @@
                 "user": {
                     "src": "img/profile/5.jpg",
                     "name": "article10",
-                    "prix": "2000/2300DA"
+                    "prix": "2000 / 2500 DA"
                 }
             }
         ]

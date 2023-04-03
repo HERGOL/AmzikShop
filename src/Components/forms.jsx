@@ -68,7 +68,7 @@ const OrderForm = () => {
     </div>
 
     <label htmlFor="size">Taille</label>
-      <select id="size" value={size} onChange={(e) => setSize(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }}>
+      <select className={`${styles["input"]} `} id="size" value={size} onChange={(e) => setSize(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }}>
         <option value="">Sélectionnez une taille</option>
         <option value="s">S</option>
         <option value="m">M</option>
