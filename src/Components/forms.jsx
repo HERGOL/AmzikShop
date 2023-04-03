@@ -37,6 +37,7 @@ const OrderForm = () => {
       phoneNumber,
       email,
       size,
+      color,
       timestamp: serverTimestamp(),
       collectionID: {pathname},
     }).then((docRef) => {
@@ -55,6 +56,7 @@ const OrderForm = () => {
     setPhoneNumber('');
     setEmail('');
     setSize('');
+    setColor('');
   };
 
   return (
