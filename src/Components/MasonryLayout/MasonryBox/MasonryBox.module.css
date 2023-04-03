@@ -10,8 +10,8 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 120px;
-    background:  rgb(255, 174, 0);
+    height: 100px;
+    background:  #FFB52E;
     align-items: flex-end;
     justify-content: center;
     opacity: 0;
