@@ -107,44 +107,43 @@ const OrderForm = () => {
           <div className={styles.inputGroup}>
            <label htmlFor="color" className={styles.label}>Couleur</label>
           <div className={styles.colorButtons}>
-           <button 
-           className={`${styles.WhiteButton} ${color === "Blanc" ? styles.active : ""}`} 
-            onClick={() => setColor("Blanc")}
-                    >
-             Blanc
-           </button>
-           <button 
-             className={`${styles.BlackButton} ${color === "Noir" ? styles.active : ""}`} 
+          <button type="button"
+  className={`${styles.WhiteButton} ${color === "Blanc" ? styles.active : ""}`} 
+  onClick={() => setColor("Blanc")}
+>
+  Blanc
+</button>
+           <button type="button"
+             className={`${styles.BlackButton} ${color === "Noir" ? styles.active : "Noir"}`} 
              onClick={() => setColor("Noir")}
            >
              Noir
            </button>
-           <button 
-             className={`${styles.BeigeButton} ${color === "Beige" ? styles.active : ""}`} 
+           <button type="button"
+             className={`${styles.BeigeButton} ${color === "Beige" ? styles.active : "Beige"}`} 
              onClick={() => setColor("Beige")}
            >
              Beige
            </button>
-           <button 
-             className={`${styles.GreenButton} ${color === "Vert" ? styles.active : ""}`} 
+           <button type="button"
+             className={`${styles.GreenButton} ${color === "Vert" ? styles.active : "Vert"}`} 
              onClick={() => setColor("Vert")}
            >
              Vert
            </button>
-           <button 
-             className={`${styles.YellowButton} ${color === "Jaune" ? styles.active : ""}`} 
+           <button type="button"  
+             className={`${styles.YellowButton} ${color === "Jaune" ? styles.active : "Jaune"}`} 
              onClick={() => setColor("Jaune")}
            >
              Jaune
            </button>
-           <button 
-             className={`${styles.RedButton} ${color === "Rouge" ? styles.active : ""}`} 
+           <button type="button"
+             className={`${styles.RedButton}`}
              onClick={() => setColor("Rouge")}
            >
              Rouge
            </button>
-           <button 
-             className={`${styles.BlueButton} ${color === "Blue" ? styles.active : ""}`} 
+           <button type="button" className={`${styles.BlueButton} ${color === "Blue" ? styles.active : ""}`} 
              onClick={() => setColor("Blue")}
            >
              Blue
