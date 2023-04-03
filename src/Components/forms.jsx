@@ -21,6 +21,7 @@ const OrderForm = () => {
   const [email, setEmail] = useState('');
   const [size, setSize] = useState(''); 
   const [pathname, setPathname] = useState('');
+  const [color, setColor] = useState('');
 
   useEffect(() => {
     setPathname(window.location.pathname);
@@ -91,6 +92,54 @@ const OrderForm = () => {
               <option value="xl">XL</option>
             </select>
           </div>
+
+          <div className={styles.inputGroup}>
+           <label htmlFor="color" className={styles.label}>Couleur</label>
+          <div className={styles.colorButtons}>
+           <button 
+           className={`${styles.colorButton} ${color === "Blanc" ? styles.active : ""}`} 
+            onClick={() => setColor("Blanc")}
+                    >
+             Blanc
+           </button>
+           <button 
+             className={`${styles.colorButton} ${color === "Noir" ? styles.active : ""}`} 
+             onClick={() => setColor("Noir")}
+           >
+             Noir
+           </button>
+           <button 
+             className={`${styles.colorButton} ${color === "Beige" ? styles.active : ""}`} 
+             onClick={() => setColor("Beige")}
+           >
+             Beige
+           </button>
+           <button 
+             className={`${styles.colorButton} ${color === "Vert" ? styles.active : ""}`} 
+             onClick={() => setColor("Vert")}
+           >
+             Vert
+           </button>
+           <button 
+             className={`${styles.colorButton} ${color === "Jaune" ? styles.active : ""}`} 
+             onClick={() => setColor("Jaune")}
+           >
+             Jaune
+           </button>
+           <button 
+             className={`${styles.colorButton} ${color === "Rouge" ? styles.active : ""}`} 
+             onClick={() => setColor("Rouge")}
+           >
+             Rouge
+           </button>
+           <button 
+             className={`${styles.colorButton} ${color === "Blue" ? styles.active : ""}`} 
+             onClick={() => setColor("Blue")}
+           >
+             Blue
+           </button>
+        </div>
+        </div>
   
           <button type="submit" className={styles.submitButton}>Passer la commande</button>
         </form>
