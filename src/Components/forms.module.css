@@ -94,7 +94,7 @@ h1 {
   margin-top: 10px;
 }
 
-.colorButton {
+.RedButton {
   background-color: transparent;
   border: 2px solid #ccc;
   border-radius: 20px;
@@ -106,9 +106,93 @@ h1 {
   flex-basis: 30%;
   max-width: 150px;
 }
+.RedButton {
+  background-color: transparent;
+  border: 2px solid #ff0000;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
+.BlueButton {
+  background-color: transparent;
+  border: 2px solid #1900ff;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
+.BlackButton {
+  background-color: transparent;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
+.WhiteButton {
+  background-color: transparent;
+  border: 2px solid #a1a1a1;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
+.GreenButton {
+  background-color: transparent;
+  border: 2px solid #00ff22;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
+.BeigeButton {
+  background-color: transparent;
+  border: 2px solid rgb(231, 193, 110);
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
+.YellowButton {
+  background-color: transparent;
+  border: 2px solid #ffee00;
+  border-radius: 20px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  transition: all 0.3s ease;
+  flex-basis: 30%;
+  max-width: 150px;
+}
 
 .colorButton:hover {
-  background-color: #ccc;
+  background-color: #c97e61;
   color: #fff;
 }
 
