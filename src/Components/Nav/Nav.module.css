@@ -1,23 +1,25 @@
 .nav {
-    z-index: 1;
+    z-index: 3;
     position: relative;
     align-items: center;
     right: 10%;
     
 }
 .img{
-    position: relative;
+    position: absolute;
+    top:10px;
     align-items: center;
-    height: 80px;
+    height: 60px;
     left: 10%;
 
 }
 
 @media screen and (max-width: 1100px) {
     .img{
-        position: relative;
+        position: absolute;
+        left:216px;
         align-items: center;
-        height: 80px;
+        height: 50px;
         
     
     }
