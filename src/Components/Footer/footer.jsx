@@ -6,14 +6,7 @@ const Footer = () => {
     <footer>
         <div class="footer-content">
             <h3>contacter nous</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo iste corrupti doloribus odio sed!</p>
-            <ul class="socials">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-            </ul>
+            <p>Num:+213 6 98 01 52 53</p>
         </div>
         <div class="footer-bottom">
             <p>copyright &copy;2023 AMZIK.<span> By Hergol</span></p>
