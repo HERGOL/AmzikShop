@@ -46,11 +46,11 @@
 }
 @keyframes pop-up {
     from {
-      top: -50px; /* Start position */
+      top: -50px;
       opacity: 0;
     }
     to {
-      top: 0; /* End position */
+      top: 0;
       opacity: 1;
     }
   }

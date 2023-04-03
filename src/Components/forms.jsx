@@ -15,7 +15,8 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 const OrderForm = () => {
-  const [fullName, setFullName] = useState('');
+  const [Name, setName] = useState('');
+  const[firstname,setfirstname]=useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [email, setEmail] = useState('');
   const [size, setSize] = useState(''); 
@@ -54,33 +55,45 @@ const OrderForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: '50px auto', maxWidth: '500px' }}>
-      <div className={`${styles["inputs"]} `}>
-      <label className={`${styles["input-label"]} `} htmlFor="fullName">Nom complet</label>
-      <input className={`${styles["input"]} `} type="text" id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
-
-      <label className={`${styles["input-label"]} `} htmlFor="phoneNumber">Numéro de téléphone</label>
-      <input className={`${styles["input"]} `} type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
-
-    
-     <label className={`${styles["input-label"]} `} htmlFor="email">Adresse e-mail</label>
-      <input className={`${styles["input"]} `} type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}  />
-    </div>
-
-    <label htmlFor="size">Taille</label>
-      <select className={`${styles["input"]} `} id="size" value={size} onChange={(e) => setSize(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }}>
-        <option value="">Sélectionnez une taille</option>
-        <option value="s">S</option>
-        <option value="m">M</option>
-        <option value="l">L</option>
-        <option value="xl">XL</option>
-      </select>
-
-
-
-      <button type="submit" className={`${styles["botton"]} flex`}>Passer la commande</button>
-    </form>
-  );
-};
-
+      <div className={styles.container}>
+        <h1>Confirmation de commande</h1>
+        <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
+  
+        <form onSubmit={handleSubmit} className={styles.form}>
+          <div className={styles.inputGroup}>
+              <label htmlFor="firstname" className={styles.label}>Prénom</label>
+              <input type="text" id="firstname" value={firstname} onChange={(e) => setfirstname(e.target.value)} className={`${styles.input} ${styles.firstName}`} />
+          </div>
+          <div className={styles.inputGroup}>
+              <label htmlFor="Name" className={styles.label}>Nom</label>
+              <input type="text" id="Name" value={Name} onChange={(e) => setName(e.target.value)} className={`${styles.input} ${styles.lastName}`} />
+          </div>
+  
+          <div className={styles.inputGroup}>
+            <label htmlFor="phoneNumber" className={styles.label}>Numéro de téléphone</label>
+            <input type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={styles.input} />
+          </div>
+  
+          <div className={styles.inputGroup}>
+            <label htmlFor="email" className={styles.label}>Adresse e-mail</label>
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className={styles.input} />
+          </div>
+  
+          <div className={styles.inputGroup}>
+            <label htmlFor="size" className={styles.label}>Taille</label>
+            <select id="size" value={size} onChange={(e) => setSize(e.target.value)} className={styles.select}>
+              <option value="">Sélectionnez une taille</option>
+              <option value="s">S</option>
+              <option value="m">M</option>
+              <option value="l">L</option>
+              <option value="xl">XL</option>
+            </select>
+          </div>
+  
+          <button type="submit" className={styles.submitButton}>Passer la commande</button>
+        </form>
+      </div>
+    );
+  };
+  
 export default OrderForm;
