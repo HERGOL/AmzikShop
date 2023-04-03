@@ -26,16 +26,24 @@
     }
 }
 @media screen and (max-width: 960px) {
-    .navbar-nav {
-        display: none !important;
-    }
-    .nav-title {
+.img{
         position: absolute;
-        left: 110px;
-        font-size: 1.8rem;
-        color: var(--orange-600);
-    }
+        left:250px;
+        align-items: center;
+        height: 50px;
+
+}
+
 } 
+@media screen and (max-width: 480px) {
+    .img{
+            position: absolute;
+            left:150px;
+            align-items: center;
+            height: 50px;
+    
+    }
+}
 @keyframes pop-up {
     from {
       top: -50px; /* Start position */
