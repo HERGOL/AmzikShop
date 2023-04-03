@@ -27,6 +27,9 @@
     font-size: 1.2rem;
     color: var(--green-400);
     margin-left: 70px;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 .heading-header-title::before {
     content: '';
@@ -37,6 +40,9 @@
     width: 60px;
     height: 2px;
     background-color: var(--green-400);
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
 }
 .heading-header-title::after {
     content: '';
@@ -49,6 +55,7 @@
     background-color: var(--green-400);
     box-shadow: 0 0 1px 3px var(--dark-900);
     border-radius: 4px;
+    
 }
 .heading-header-second-title {
     color: var(--green-white-100);
@@ -82,6 +89,7 @@
         margin-left: -120px;
         top: -30%;
         left: 1%;
+        
         
     }
     

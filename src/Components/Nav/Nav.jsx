@@ -1,7 +1,6 @@
 // import styles of this component
 import styles from "./Nav.module.css"
 import  "./LOGO.svg"
-import "./logo.png"
 
 
 // Nav component

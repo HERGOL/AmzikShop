@@ -11,6 +11,7 @@
     align-items: center;
     height: 60px;
     left: 10%;
+    animation: pop-up 1s forwards;
 
 }
 
@@ -35,3 +36,13 @@
         color: var(--orange-600);
     }
 } 
+@keyframes pop-up {
+    from {
+      top: -50px; /* Start position */
+      opacity: 0;
+    }
+    to {
+      top: 0; /* End position */
+      opacity: 1;
+    }
+  }
