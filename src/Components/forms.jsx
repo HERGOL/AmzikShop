@@ -31,7 +31,8 @@ const OrderForm = () => {
     const db = getFirestore();
     const ordersCollection = collection(db, 'orders');
     addDoc(ordersCollection, {
-      fullName,
+      Name,
+      firstname,
       phoneNumber,
       email,
       size,
@@ -48,7 +49,8 @@ const OrderForm = () => {
       console.log(error);
     });
     // Reset the form after submitting the order
-    setFullName('');
+    setName('');
+    setfirstname('');
     setPhoneNumber('');
     setEmail('');
     setSize('');
@@ -96,4 +98,5 @@ const OrderForm = () => {
     );
   };
   
+
 export default OrderForm;
