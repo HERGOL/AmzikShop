@@ -187,10 +187,35 @@ h1 {
   cursor: pointer;
 }
 
-.colorButton:hover {
-  background-color: #c97e61;
+.RedButton:hover {
+  background-color: #ff0000;
   color: #fff;
 }
+.BlueButton:hover {
+  background-color: #1900ff;
+  color: #fff;
+}
+.BlackButton:hover {
+  background-color: #000000;
+  color: #fff;
+}
+.WhiteButton:hover {
+  background-color: #d6d4d4;
+  color: #fff;
+}
+.YellowButton:hover {
+  background-color: #ffee00;
+  color: #fff;
+}
+.GreenButton:hover {
+  background-color: #00ff22;
+  color: #fff;
+}
+.BeigeButton:hover {
+  background-color: rgb(231, 193, 110);;
+  color: #fff;
+}
+
 
 .colorButton.active {
   background-color: #333;

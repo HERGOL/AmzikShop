@@ -95,6 +95,14 @@ const OrderForm = () => {
               <option value="xl">XL</option>
             </select>
           </div>
+          <div className={styles.inputGroup}>
+            <label htmlFor="size" className={styles.label}>Type</label>
+            <select id="size" value={size} onChange={(e) => setSize(e.target.value)} className={styles.select}required >
+              <option value="">Sélectionnez le type</option>
+              <option value="Basic">Basic</option>
+              <option value="Over-Size">Over-Size</option>
+              </select>
+              </div>
 
           <div className={styles.inputGroup}>
            <label htmlFor="color" className={styles.label}>Couleur</label>
