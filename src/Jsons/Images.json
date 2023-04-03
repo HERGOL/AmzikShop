@@ -3,7 +3,7 @@
         "all": [
             {
                 "id": "1",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/1_bimnkm.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680481853/article1_u68dsp.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article1",
@@ -12,7 +12,7 @@
             },
             {
                 "id": "2",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/3_twn5fk.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680481852/article2_gxpy9l.jpg",
                 "user": {
                     "src": "img/profile/1.jpg",
                     "name": "article2",
@@ -21,7 +21,7 @@
             },
             {
                 "id": "3",
-                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/c_scale,h_549,q_80/6_nmjbqv.jpg",
+                "src": "https://res.cloudinary.com/dmq21zp6g/image/upload/v1680481853/article3_faotx7.jpg",
                 "user": {
                     "src": "img/profile/4.jpg",
                     "name": "article3",
