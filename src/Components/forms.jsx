@@ -61,6 +61,7 @@ const OrderForm = () => {
       <div className={styles.container}>
         <h1>Confirmation de commande</h1>
         <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
+        <img className={styles.image} src="https://res.cloudinary.com/dmq21zp6g/image/upload/v1680483572/article1_knrbmo.jpg"/>
   
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
