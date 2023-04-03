@@ -30,6 +30,7 @@
     animation-name: slide-in;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+    
 }
 .heading-header-title::before {
     content: '';
@@ -67,6 +68,7 @@
     animation-name: slide-in;
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
+    text-align:left ;
 }
 .heading-header-second-title span {
     color: var(--orange-400);
