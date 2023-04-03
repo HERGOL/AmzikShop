@@ -15,7 +15,8 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 const OrderForm = () => {
-  const [fullName, setFullName] = useState('');
+  const [Name, setName] = useState('');
+  const[firstname,setfirstname]=useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [email, setEmail] = useState('');
   const [size, setSize] = useState(''); 
@@ -30,7 +31,8 @@ const OrderForm = () => {
     const db = getFirestore();
     const ordersCollection = collection(db, 'orders');
     addDoc(ordersCollection, {
-      fullName,
+      Name,
+      firstname,
       phoneNumber,
       email,
       size,
@@ -47,7 +49,8 @@ const OrderForm = () => {
       console.log(error);
     });
     // Reset the form after submitting the order
-    setFullName('');
+    setName('');
+    setfirstname('');
     setPhoneNumber('');
     setEmail('');
     setSize('');
@@ -56,19 +59,22 @@ const OrderForm = () => {
   return (
     <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: '50px auto', maxWidth: '500px' }}>
       <div className={`${styles["inputs"]} `}>
-      <label className={`${styles["input-label"]} `} htmlFor="fullName">Nom complet</label>
-      <input className={`${styles["input"]} `} type="text" id="fullName" value={fullName} onChange={(e) => setFullName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
+      <label className={`${styles["input-label"]} `} htmlFor="Name">Nom:</label>
+      <input className={`${styles["input"]} `} type="text" id="Name" value={Name} onChange={(e) => setName(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} required />
+
+      <label className={`${styles["input-label"]} `} htmlFor="firstname">Prénom:</label>
+      <input className={`${styles["input"]} `} type="text" id="firstname" value={firstname} onChange={(e) => setfirstname(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }}required />
 
       <label className={`${styles["input-label"]} `} htmlFor="phoneNumber">Numéro de téléphone</label>
-      <input className={`${styles["input"]} `} type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} />
+      <input className={`${styles["input"]} `} type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} required/>
 
     
      <label className={`${styles["input-label"]} `} htmlFor="email">Adresse e-mail</label>
-      <input className={`${styles["input"]} `} type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)}  />
+      <input className={`${styles["input"]} `} type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required />
     </div>
 
     <label htmlFor="size">Taille</label>
-      <select className={`${styles["input"]} `} id="size" value={size} onChange={(e) => setSize(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }}>
+      <select className={`${styles["input"]} `} id="size" value={size} onChange={(e) => setSize(e.target.value)} style={{ border: 'none', borderBottom: '2px solid #ccc', padding: '10px', marginBottom: '20px', width: '100%', fontSize: '16px' }} required>
         <option value="">Sélectionnez une taille</option>
         <option value="s">S</option>
         <option value="m">M</option>
