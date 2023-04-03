@@ -64,26 +64,26 @@ const OrderForm = () => {
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
               <label htmlFor="firstname" className={styles.label}>Prénom</label>
-              <input type="text" id="firstname" value={firstname} onChange={(e) => setfirstname(e.target.value)} className={`${styles.input} ${styles.firstName}`} />
+              <input type="text" id="firstname" value={firstname} onChange={(e) => setfirstname(e.target.value)} className={`${styles.input} ${styles.firstName}`} required />
           </div>
           <div className={styles.inputGroup}>
               <label htmlFor="Name" className={styles.label}>Nom</label>
-              <input type="text" id="Name" value={Name} onChange={(e) => setName(e.target.value)} className={`${styles.input} ${styles.lastName}`} />
+              <input type="text" id="Name" value={Name} onChange={(e) => setName(e.target.value)} className={`${styles.input} ${styles.lastName}`} required />
           </div>
   
           <div className={styles.inputGroup}>
             <label htmlFor="phoneNumber" className={styles.label}>Numéro de téléphone</label>
-            <input type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={styles.input} />
+            <input type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={styles.input} required />
           </div>
   
           <div className={styles.inputGroup}>
             <label htmlFor="email" className={styles.label}>Adresse e-mail</label>
-            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className={styles.input} />
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className={styles.input} required />
           </div>
   
           <div className={styles.inputGroup}>
             <label htmlFor="size" className={styles.label}>Taille</label>
-            <select id="size" value={size} onChange={(e) => setSize(e.target.value)} className={styles.select}>
+            <select id="size" value={size} onChange={(e) => setSize(e.target.value)} className={styles.select}required >
               <option value="">Sélectionnez une taille</option>
               <option value="s">S</option>
               <option value="m">M</option>
