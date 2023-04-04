@@ -189,10 +189,10 @@ const [css,setCss] =useState('');
         
         </div>
         {type === "Over-Size" && (
-        <div className={styles.price2}>Prix: 2300 DA</div>
+        <div>Prix: 2300 DA</div>
         )}
         {type === "Basic" && (
-          <div classeName={styles.price1}>Prix: 2000 DA</div>
+          <div>Prix: 2000 DA</div>
         )}
 
           <button type="submit" className={styles.submitButton}>Passer la commande</button>
