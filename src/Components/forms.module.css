@@ -13,9 +13,17 @@
   background-color: #ffc400;
   border-radius: 20px;
 }
-.price{
+.price2{
   font-weight: bolder;
   margin-bottom:35px;
+  font-size: 1.4rem;
+}
+.price1{
+  background-color: #ff0000;
+  height: 100px;
+  width: 100%;
+  margin-top: 60px;
+  font-weight: bolder;
   font-size: 1.4rem;
 }
 
@@ -79,6 +87,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: 40px;
 }
 
 .submitButton:hover {
@@ -100,6 +109,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 

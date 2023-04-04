@@ -77,8 +77,7 @@ const [css,setCss] =useState('');
         <h1 className={styles.headertext}>Confirmation de commande</h1>
         <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
         <img className={styles.image} src={imageSrc}/>
-        <h1 className={styles.price}>Prix:</h1>
-  
+
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
               <label htmlFor="firstname" className={styles.label}>Prénom</label>
@@ -189,10 +188,10 @@ const [css,setCss] =useState('');
         </div>
         </div>
         {type === "Over-Size" && (
-        <div className={styles.price}>Prix: 2300 DA</div>
+        <div className={styles.price2}>Prix: 2300 DA</div>
         )}
         {type === "Basic" && (
-          <div classeName={styles.price}>Prix: 2000 DA</div>
+          <div classeName={styles.price1}>Prix: 2000 DA</div>
         )}
 
           <button type="submit" className={styles.submitButton}>Passer la commande</button>
