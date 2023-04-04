@@ -25,7 +25,7 @@ const OrderForm = () => {
 const [type, setType] = useState('');
 const [imageSrc, setImageSrc] = useState('');
 const [css,setCss] =useState('');
-const[price,setPrice]=useState('');
+
   useEffect(() => {
     setPathname(window.location.pathname);
   }, []);
@@ -58,12 +58,8 @@ const[price,setPrice]=useState('');
     }).catch((error) => {
       console.log(error);
     });
-    if (type === "Basic") {
-      setPrice("2000");
-    } 
-    if (type === "Over-Size") {
-      setPrice("2300");
-    } 
+
+
     // Reset the form after submitting the order
     setName('');
     setfirstname('');
@@ -72,8 +68,9 @@ const[price,setPrice]=useState('');
     setSize('');
     setColor('');
     setCss('');
-    setPrice('');
   };
+
+
 
   return (
       <div className={styles.container}>
@@ -191,7 +188,13 @@ const[price,setPrice]=useState('');
   )}
         </div>
         </div>
-        <div className={styles.price}>Prix:{price}</div>
+        {type === "Over-Size" && (
+        <div className={styles.price}>Prix: 2300 DA</div>
+        )}
+        {type === "Basic" && (
+          <div classeName={styles.price}>Prix: 2000 DA</div>
+        )}
+
           <button type="submit" className={styles.submitButton}>Passer la commande</button>
         </form>
       </div>
