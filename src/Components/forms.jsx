@@ -85,7 +85,7 @@ const [css,setCss] =useState('');
   
           <div className={styles.inputGroup}>
             <label htmlFor="phoneNumber" className={styles.label}>Numéro de téléphone</label>
-            <input type="text" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={styles.input} required />
+            <input type="number" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={styles.input} required />
           </div>
   
           <div className={styles.inputGroup}>
@@ -114,7 +114,7 @@ const [css,setCss] =useState('');
 
           <div className={styles.inputGroup}>
            <label htmlFor="color" className={styles.label}>Couleur: <span style={{ color: `${css}`, fontSize: "20px"}}>{color}</span></label>
-          <div className={styles.colorButtons}>
+          <div className={styles.colorButtons} required>
           {type === "Basic" && (
             <>
              <button type="button"
