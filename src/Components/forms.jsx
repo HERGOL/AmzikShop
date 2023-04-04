@@ -184,7 +184,7 @@ const [css,setCss] =useState('');
          
         </div>
         </div>
-        <h1 className={styles.price}>Prix:</h1>
+        <div className={styles.price}>Prix:</div>
   
           <button type="submit" className={styles.submitButton}>Passer la commande</button>
         </form>

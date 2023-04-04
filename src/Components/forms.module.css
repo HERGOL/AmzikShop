@@ -10,7 +10,8 @@ h1 {
   margin-top: 0;
   font-size: 2rem;
   text-align: center;
-  font-weight: bolder;
+  background-color: #ffc400;
+  border-radius: 20px;
   
 }
 .price{
