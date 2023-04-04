@@ -72,6 +72,7 @@ const [css,setCss] =useState('');
         <h1>Confirmation de commande</h1>
         <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
         <img className={styles.image} src={imageSrc}/>
+        <h1 className={styles.price}>Prix:</h1>
   
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
