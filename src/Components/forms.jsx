@@ -69,7 +69,7 @@ const [css,setCss] =useState('');
 
   return (
       <div className={styles.container}>
-        <h1>Confirmation de commande</h1>
+        <h1 className={styles.headertext}>Confirmation de commande</h1>
         <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
         <img className={styles.image} src={imageSrc}/>
         
