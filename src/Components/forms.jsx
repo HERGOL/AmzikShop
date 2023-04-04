@@ -25,6 +25,7 @@ const OrderForm = () => {
 const [type, setType] = useState('');
 const [imageSrc, setImageSrc] = useState('');
 const [css,setCss] =useState('');
+const[price,setPrice]=useState('');
   useEffect(() => {
     setPathname(window.location.pathname);
   }, []);
@@ -57,6 +58,12 @@ const [css,setCss] =useState('');
     }).catch((error) => {
       console.log(error);
     });
+    if (type === "Basic") {
+      setPrice("2000");
+    } 
+    if (type === "Over-Size") {
+      setPrice("2300");
+    } 
     // Reset the form after submitting the order
     setName('');
     setfirstname('');
@@ -65,6 +72,7 @@ const [css,setCss] =useState('');
     setSize('');
     setColor('');
     setCss('');
+    setPrice('');
   };
 
   return (
@@ -108,8 +116,8 @@ const [css,setCss] =useState('');
             <label htmlFor="type" className={styles.label}>Type</label>
             <select id="type" value={type} onChange={(e) => setType(e.target.value)} className={styles.select}required >
               <option value="">Sélectionnez le type</option>
-              <option value="Basic">Basic</option>
-              <option value="Over-Size">Over-Size</option>
+              <option value="Basic" >Basic</option>
+              <option value="Over-Size" >Over-Size</option>
               </select>
               </div>
 
@@ -162,6 +170,7 @@ const [css,setCss] =useState('');
                       </>
            )}
              {type === "Over-Size" && (
+            
     <>
       <button
         type="button"
@@ -180,12 +189,9 @@ const [css,setCss] =useState('');
                       </button>
     </>
   )}
-
-         
         </div>
         </div>
-        <div className={styles.price}>Prix:</div>
-  
+        <div className={styles.price}>Prix:{price}</div>
           <button type="submit" className={styles.submitButton}>Passer la commande</button>
         </form>
       </div>
