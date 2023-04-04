@@ -23,10 +23,16 @@ const OrderForm = () => {
   const [pathname, setPathname] = useState('');
   const [color, setColor] = useState('');
 const [type, setType] = useState('');
+const [imageSrc, setImageSrc] = useState('');
+const [css,setCss] =useState('');
   useEffect(() => {
     setPathname(window.location.pathname);
   }, []);
-  const imagePath = require(`../Assets/img${pathname}.jpg`);
+
+  useEffect(() => {
+    setImageSrc(require(`../Assets/img${pathname}.jpg`));
+  }, [pathname]);
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     const db = getFirestore();
@@ -58,13 +64,14 @@ const [type, setType] = useState('');
     setEmail('');
     setSize('');
     setColor('');
+    setCss('');
   };
 
   return (
       <div className={styles.container}>
         <h1>Confirmation de commande</h1>
         <p className={styles.subtitle}>Vérifiez que toutes les informations sont correctes avant de passer votre commande.</p>
-        <img className={styles.image} src={imagePath}/>
+        <img className={styles.image} src={imageSrc}/>
   
         <form onSubmit={handleSubmit} className={styles.form}>
           <div className={styles.inputGroup}>
@@ -106,48 +113,48 @@ const [type, setType] = useState('');
               </div>
 
           <div className={styles.inputGroup}>
-           <label htmlFor="color" className={styles.label}>Couleur</label>
+           <label htmlFor="color" className={styles.label}>Couleur: <span style={{ color: `${css}`, fontSize: "20px"}}>{color}</span></label>
           <div className={styles.colorButtons}>
           {type === "Basic" && (
             <>
              <button type="button"
-             className={`${styles.WhiteButton} ${color === "Blanc" ? styles.active : ""}`} 
-             onClick={() => setColor("Blanc")}
+             className={`${styles.WhiteButton}`} 
+             onClick={() => {setColor("Blanc"); setCss("#454545")}}
            >
              Blanc
            </button>
                       <button type="button"
-                        className={`${styles.BlackButton} ${color === "Noir" ? styles.active : "Noir"}`} 
-                        onClick={() => setColor("Noir")}
+                        className={styles.BlackButton}
+                        onClick={() => {setColor("Noir"); setCss("#111")}}
                       > 
                         Noir
                       </button>
                       <button type="button"
-                        className={`${styles.BeigeButton} ${color === "Beige" ? styles.active : "Beige"}`} 
-                        onClick={() => setColor("Beige")}
+                        className={`${styles.BeigeButton}`} 
+                        onClick={() =>{setColor("Beige"); setCss("#FFA559")}}
                       >
                         Beige
                       </button>
                       <button type="button"
                         className={`${styles.GreenButton} ${color === "Vert" ? styles.active : "Vert"}`} 
-                        onClick={() => setColor("Vert")}
+                        onClick={() => {setColor("Vert");setCss("#00FF00")}}
                       >
                         Vert
                       </button>
                       <button type="button"  
                         className={`${styles.YellowButton} ${color === "Jaune" ? styles.active : "Jaune"}`} 
-                        onClick={() => setColor("Jaune")}
+                        onClick={() => {setColor("Jaune"); setCss("#FFBF00")}}
                       >
                         Jaune
                       </button>
                       <button type="button"
                         className={`${styles.RedButton}`}
-                        onClick={() => setColor("Rouge")}
+                        onClick={() =>{setColor("Rouge"); setCss("#FF0000")}}
                       >
                         Rouge
                       </button>
                       <button type="button" className={`${styles.BlueButton} ${color === "Blue" ? styles.active : ""}`} 
-                        onClick={() => setColor("Blue")}
+                        onClick={() => {setColor("Blue"); setCss("#0000FF")}}
                       >
                         Blue
                       </button>
@@ -160,13 +167,13 @@ const [type, setType] = useState('');
         className={`${styles.WhiteButton} ${
           color === "Blanc" ? styles.active : ""
         }`}
-        onClick={() => setColor("Blanc")}
+        onClick={() => {setColor("Blanc"); setCss("#454545")}}
       >
         Blanc
       </button>
       <button type="button"
                         className={`${styles.BlackButton} ${color === "Noir" ? styles.active : "Noir"}`} 
-                        onClick={() => setColor("Noir")}
+                        onClick={() => {setColor("Noir"); setCss("#111")}}
                       > 
                         Noir
                       </button>
