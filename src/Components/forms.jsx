@@ -157,7 +157,7 @@ const [css,setCss] =useState('');
                       <button type="button" className={`${styles.BlueButton} ${color === "Blue" ? styles.active : ""}`} 
                         onClick={() => {setColor("Blue"); setCss("#0000FF")}}
                       >
-                        Blue
+                        Bleu
                       </button>
                       </>
            )}
