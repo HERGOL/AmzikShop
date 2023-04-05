@@ -20,7 +20,7 @@ const MasonryBox = ({ wallSrc, userProf,prix}) => {
         </div>
     </div>
     </>
-  )
+  ) 
 }
 
 // validate MasonryBox component
