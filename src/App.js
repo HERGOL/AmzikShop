@@ -10,6 +10,7 @@ function App() {
     <Router>
       <Switch>
         <Route path='/' component={Home} exact />
+        <Route component={NotFound} />
         <Route path='/article1' component={A1} exact />
         <Route path='/article2' component={A1} exact />
         <Route path='/article3' component={A1} exact />
@@ -20,7 +21,7 @@ function App() {
         <Route path='/article8' component={A1} exact />
         <Route path='/article9' component={A1} exact />
         <Route path='/article10' component={A1} exact />
-        <Route component={NotFound} />
+        
       </Switch>
     </Router>
   );
