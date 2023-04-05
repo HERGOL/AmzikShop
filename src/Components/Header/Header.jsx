@@ -22,6 +22,12 @@ const Header = () => {
              <h1 className={styles["heading-header-second-title"]}>
              Soyez les premiers<br />à porter la collection t-shirts  <span>AMZIK.</span></h1>
            <h1 className={styles["heading-header-second-title1"]}>Passez votre commande et recevez <br />nos produits en exclusivité.</h1>
+
+          <svg className={styles["arow"]} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path fill="none" d="M0 0h24v24H0z"/>
+            <path d="M7 10l5 5 5-5z"/>
+          </svg>
+
           </div>
         </ContainerCard>
     </header> 
