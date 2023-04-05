@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from  'react-router-dom'
 import Home from './Pages'
 import A1 from './Pages/A1';
+import NotFound from './Pages/NotFound';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/article8' component={A1} exact />
         <Route path='/article9' component={A1} exact />
         <Route path='/article10' component={A1} exact />
+        <Route path='/article11'component={NotFound} />
       </Switch>
     </Router>
   );
