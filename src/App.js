@@ -20,7 +20,7 @@ function App() {
         <Route path='/article8' component={A1} exact />
         <Route path='/article9' component={A1} exact />
         <Route path='/article10' component={A1} exact />
-        <Route path='/article11'component={NotFound} />
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );
