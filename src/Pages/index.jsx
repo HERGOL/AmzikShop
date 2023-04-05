@@ -60,7 +60,7 @@ const Home = () => {
         <div className="flex justify-content-center" style={{ marginTop: "50px", padding: '50px' }}>
           <ContainerCard>
               <div className={`${styles["gallery-setting"]} flex justify-content-between align-items-center`}>
-                <h1>La Collection</h1>
+                <h1>Découvrez notre collection:</h1>
               </div>
               <MasonryLayout images={categoryImage} />
           </ContainerCard>

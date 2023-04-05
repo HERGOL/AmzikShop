@@ -17,12 +17,11 @@ const Header = () => {
           <BrickLayout />
           
           <div className={`${styles["headings-header"]} flex justify-content-center flex-column `}>
-            <h2 className={styles["heading-header-title"]}>Rejoignez le mouvement Amzik dès maintenant !</h2>
+            <h2 className={styles["heading-header-title"]}>Bienvenue dans AmZik Shop!</h2>
            
              <h1 className={styles["heading-header-second-title"]}>
-             Bénéficiez du service précommande<br /> de la marque <span>AMZIK SHOP</span> <br /> soyez les premiers à recevoir nos produits <br />dès la sortie de la nouvelle collection <br />
-             </h1>
-           
+             Soyez les premiers<br />à porter la collection t-shirts  <span>AMZIK.</span></h1>
+           <h1 className={styles["heading-header-second-title1"]}>Passez votre commande et recevez <br />nos produits en exclusivité.</h1>
           </div>
         </ContainerCard>
     </header> 

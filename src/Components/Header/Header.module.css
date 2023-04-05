@@ -24,7 +24,7 @@
 
 .heading-header-title {
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: var(--green-400);
     margin-left: 70px;
     animation-name: slide-in;
@@ -60,8 +60,20 @@
 }
 .heading-header-second-title {
     color: var(--green-white-100);
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     margin-top: 30px;
+    font-weight: bolder;
+    line-height: 50px;
+    position: relative;
+    animation-name: slide-in;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-out;
+    text-align:left ;
+}
+.heading-header-second-title1 {
+    color: var(--green-white-100);
+    font-size: 2.6rem;
+    margin-top: 26px;
     font-weight: bolder;
     line-height: 50px;
     position: relative;
@@ -124,10 +136,21 @@
     }
 }
 @media screen and (max-width: 480px) {
-
+    .heading-header-second-title1 {
+        color: var(--green-white-100);
+        font-size: 24px;
+        font-weight: bolder;
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        top: 300px;
+        width: 80%;
+       
+    }
 
     .heading-header-second-title {
         position: absolute;
+        top: 120px;
         font-size: 24px;
         text-align: center;
         font-size: bold;
