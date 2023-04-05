@@ -52,7 +52,7 @@ const [css,setCss] =useState('');
       console.log('Data successfully saved:', docRef.id);
       Swal.fire(
         'Votre commande a été traitée!',
-        "notre équipe travaille dur pour la préparer et vous l'envoyer dès que possible.",
+        "Notre équipe vous contactera dés que votre commande sera prête.Merci!",
         'success'
       );
     }).catch((error) => {
@@ -90,12 +90,12 @@ const [css,setCss] =useState('');
   
           <div className={styles.inputGroup}>
             <label htmlFor="phoneNumber" className={styles.label}>Numéro de téléphone</label>
-            <input type="number" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={styles.input} required />
+            <input type="number" id="phoneNumber" value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} className={`${styles.input} ${styles.lastName}`} required />
           </div>
   
           <div className={styles.inputGroup}>
             <label htmlFor="email" className={styles.label}>Adresse e-mail</label>
-            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className={styles.input} required />
+            <input type="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} className={`${styles.input} ${styles.lastName}`} required />
           </div>
   
           <div className={styles.inputGroup}>

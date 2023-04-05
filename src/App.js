@@ -4,8 +4,6 @@ import Home from './Pages'
 import A1 from './Pages/A1';
 
 
-
-
 function App() {
   return (
     <Router>
