@@ -25,6 +25,9 @@ const OrderForm = () => {
 const [type, setType] = useState('');
 const [imageSrc, setImageSrc] = useState('');
 const [css,setCss] =useState('');
+useEffect(() => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}, []);
 
   useEffect(() => {
     setPathname(window.location.pathname);
