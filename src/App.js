@@ -17,9 +17,7 @@ function App() {
         <Route path='/article5' component={A1} exact />
         <Route path='/article6' component={A1} exact />
         <Route path='/article7' component={A1} exact />
-        <Route path='/article8' component={A1} exact />
-        <Route path='/article9' component={A1} exact />
-        <Route path='/article10' component={A1} exact />
+    
         <Route path="*">
           <NotFound/>
           </Route>
